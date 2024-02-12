@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#navbar{
+ background-color: #b2744c;    
+ position: fixed;
+ width: 100%;}
+#logo img{
+ border-radius: 20px;
+ width: 100px;
+ height: 50px;
+ margin-left: 40px;
+}
+.navbar-nav{
+ margin-left: 50px;
+}
+.nav-item .nav-link{
+ color: black;
+ margin-left: 10px;
+ font-weight: bold;
+ transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+background-color: antiquewhite;
+border-radius: 5px;
+}
+#navbar form button{
+background: black;
+color: white;
+border: 1px solid white;
+}
+#home{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./shop3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%; 
+}
+#home .content{
+    padding-top: 210px;
+    margin-left: 56px;
+}
+#home .content h3{
+    font-size: 50px;
+    color: white;
+}
+#home .content p{
+    margin-top: 10px;
+    color: wheat;
+}
+#btn:hover{
+    background: #b2744c;
+    color: wheat;
+}
+#about {
+    width: 100%;
+    height: 100vh;
+}
+.about.container{
+    padding-top: 70px;
+}
+.heading {
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight:  bold;
+}
+.heading span{
+    color: #b2744c;
+}
+
+#prduct{
+    width: 100%;
+    height: 60vh;
+    background: #f7f5f2;
+}
+.heading2{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight:  bold;
+
+}
+.heading2 span{
+    color: red;
+}
+.price_table{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: var(--dark-color);
+  }
+  .price_table .price_box{
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+  }
+  .price_table .price_box h2{
+    margin: 5px 0 15px ;
+  }
+  .price_table .price_box:hover p{
+    -webkit-transform:scale(1.2,1.2)rotate(360deg);
+    -moz-transform:scale(1.2,1.2)rotate(360deg);
+    -o-transform:scale(1.2,1.2)rotate(360deg);
+     transform:scale(1.2,1.2)rotate(360deg);
+     border: 2px solid #00b894;
+  }
+  .price_table .price_box p{
+    font-size: 35px;
+    font-weight: bold;
+    color:#666;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 100px;
+    background-color: #81ecec;
+    border-radius: 50%;
+    line-height: 100px;
+    -webkit-transition-duration:0.7s;
+    -moz-transition-duration:0.7s;
+    -o-transition-duration:0.7s;
+    transition-duration:0.7s;
+    border: 2px solid #fff;
+  
+  }
+  .price_table .price_box ul{
+    line-height: 250%;
+    font-size: 18px;
+    margin-left: 30px;
+    font-weight: bold;
+  }
+  .price_table .price_box a{
+    margin-bottom: 5px;
+  }
+  .price_table h1{
+   margin-bottom:40px;
+}
+.client {
+    background-size: cover;
+    width: 100%;
+    min-height: 300px;
+  }
+    .client-field{
+        background-color:rgba(0,0,0,0.8);
+    }
+  .client .client-field .carousel-inner .carousel-item p{
+    color:white;
+  }
+    .client .carousel-inner {
+        min-height: 160px;
+    }
+        .client .carousel-inner .carousel-item {
+            min-height: 160px;
+        }
+        .client .carousel-indicators {
+            width: 100%;
+            margin: auto;
+            position: static;
+        }
+    .client .carousel-indicators button{
+        text-indent:0;
+        width:80px;
+        height:80px;
+        opacity:0.5;
+        border:2px solid #fff;
+        border-radius:50%;
+        overflow:hidden;
+        margin:5px;
+        transition:1s;
+    }
+        .client .carousel-indicators button img {
+            max-width: 100%;
+        }
+        .contact_us{   
+            -webkit-background-size:cover;
+            -moz-background-size:cover;
+            -o-background-size:cover;
+            background-size:cover;
+            min-height: 400px;
+          }
+          .contact_us .fields{
+            background: rgba(2,2,2,0.7);
+            min-height: 400px;
+            color:#ddd;
+            padding-top: 30px;
+            padding-bottom: 30px;
+          }
+            .sour-work .sour-work-field{
+                background-color:rgba(0,0,0,0.6);
+            }
+            .sour-work-field  h2{
+              color: var(--bluecoloe);
+              padding-top: 5rem;
+              padding-bottom: 5rem;
+            }
+            .imswcontainer {
+                position: relative;
+                width: 100%;
+                height: auto;
+            }
+          .imswimage {
+            width: 100%;
+            height: 15rem;
+          }
+          .imswoverlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0,0,0,.6);
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            transform: scale(0);
+            transition: .3s ease;
+          }
+          .imswcontainer:hover .imswoverlay {
+            -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+            transform: scale(1);
+          }
+          .imswtext {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+          }
